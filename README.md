@@ -40,7 +40,8 @@ docker run -it --rm -v ${PWD}/init:/scripts mcr.microsoft.com/mssql-tools \
 ```
 
 
-Esse comando executa o script init.sql que cria a estrutura do banco de dados com todas as tabelas necessárias.
+Esse comando executa o script init.sql que sobe o banco e com dotnet ef migrations add CriarTabelaUsuarios
+voce cria o banco.
 
 📂 Organização do Projeto
 <strong> Migrations/ </strong> – Arquivos de versionamento do banco de dados.
