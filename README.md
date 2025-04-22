@@ -40,7 +40,7 @@ docker run -it --rm -v ${PWD}/init:/scripts mcr.microsoft.com/mssql-tools \
 ```
 
 
-Esse comando executa o script init.sql que sobe o banco e com dotnet ef migrations add CriarTabelaUsuarios
+Esse comando executa o script init.sql que sobe o banco e com dotnet ef migrations add CriarBanco por exemplo
 voce cria o banco.
 
 📂 Organização do Projeto
